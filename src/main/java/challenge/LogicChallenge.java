@@ -19,7 +19,7 @@ public class LogicChallenge {
     In such cases for example, your answer should be taken as Only I or Only II or Only III and not Only I.
      */
     public void StatementOne(){
-
+    System.out.println("Statement I should not be enough info to determine what day of the week the fourteenth day of the Month is.");
     }
     public void StatementTwo(){
 
