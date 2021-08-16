@@ -18,13 +18,19 @@ public class LogicChallenge {
     Remember out of the three statements, each of them alone can also be sufficient to answer the question.
     In such cases for example, your answer should be taken as Only I or Only II or Only III and not Only I.
      */
-    public void StatementOne(){
+    public void AnswerA(){
     System.out.println("Statement I should not be enough info to determine what day of the week the fourteenth day of the Month is.");
     }
-    public void StatementTwo(){
-
+    public void AnswerB(){
+        System.out.println("Statement II contains enough info to determine what day of the week the fourteenth day of the Month is. (It was wednesday)");
     }
-    public void StatementThree(){
-
+    public void AnswerC() {
+        System.out.println("Since Statement II was sufficient to determine the day of the week of day 17, the answer is yes");
+    }
+    public void AnswerD(){
+        System.out.println("Since Statement II was sufficient to determine the day of the week of day 17, a combination of Statement I and II is also sufficient... however, there are no months with 27 or 34 days in them so this month should not exist.");
+    }
+    public void AnswerE(){
+        System.out.println("Data from both statements are ... however, there are no months with 27 or 34 days in them so this month should not exist.");
     }
 }
